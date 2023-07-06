@@ -35,4 +35,5 @@ Construye aplicaciones web utilizando React.js para el front-end y python/flask 
 ## ¡Publica tu sitio web!
 
 Esta plantilla está 100% lista para desplegarse con Render.com en cuestión de minutos.
--Para poder desplegar varias veces con la misma plantilla, modifica en render.yaml services.name y databases.name
+
+- Para poder desplegar varias veces con la misma plantilla, modifica en render.yaml services.name y databases.name
