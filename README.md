@@ -23,7 +23,7 @@ Construye aplicaciones web utilizando React.js para el front-end y python/flask 
 6. Ejecuta `$ pipenv shell`
 7. A continuación instala los paquetes de python: `$ pipenv install`
 8. Después, `$ npm install`
-9. Antes de levantar el entorno, copia del .env.example las variables de entorno del DATABASE_URL y el BACKEND_URL que tienen el comentario de IN LOCAL.
+9. Antes de levantar el entorno, copia del .env.example las variables de entorno del DATABASE_URL y el BACKEND_URL.
 10. Si hace falta ejecutar:
     - `$ pipenv run init` -> si no existe carpeta de migraciones
     - `$ pipenv run migrate`
