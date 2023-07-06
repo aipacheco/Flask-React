@@ -10,7 +10,6 @@ from api.utils import APIException, generate_sitemap
 from api.models.db import db
 from api.routes import api
 from api.admin import setup_admin
-from api.commands import setup_commands
 import api.domain.user.route as api_user
 
 #from models import Person
@@ -37,10 +36,6 @@ CORS(app)
 # add the admin
 setup_admin(app)
 
-# add the admin
-setup_commands(app)
-
-# Add all endpoints form the API with a "api" prefix
 # Add all endpoints form the API with a "api" prefix
 app.register_blueprint(api_user.api, url_prefix='/api/user')
 
